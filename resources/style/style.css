@@ -1,0 +1,136 @@
+/* universal selectors */
+
+a {
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+img {
+    width: 300px;
+}
+
+
+/* header */
+
+header {
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    bottom: 0;
+    box-shadow: 0px 0px 8px 0px #000000;
+    color: white;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+header .logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav {
+    padding-right: 10px;
+}
+
+header nav span {
+    padding-right: 40px;
+}
+
+/* main content */
+
+.main {
+    margin: 69px auto;
+    position: static;
+    text-align: center;
+}
+
+.hero {
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero-background.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.tea-of-month {
+    text-align: center;
+}
+
+.tea-pictures {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.tea-pictures div {
+    padding: 10px 5px;
+}
+
+.locations {
+    align-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/img-locations-background.jpg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.locations h2 {
+    width: 100%;
+}
+
+.location-containers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-containers div {
+    background-color: black;
+    height: 300px;
+    margin: 0 20px;
+    opacity: 1;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location-containers p {
+    padding-top: 15px;
+}
+
+.contact {
+    height: 200px;
+}
+
+
+/* footer */
+
+footer {
+    position: static;
+    margin-left: 20px;
+}
