@@ -13,10 +13,6 @@ body {
     opacity: 0.9;
 }
 
-img {
-    width: 300px;
-}
-
 
 /* header */
 
@@ -72,6 +68,10 @@ header nav span {
 
 .tea-of-month {
     text-align: center;
+}
+
+.tea-of-month img {
+    width: 300px;
 }
 
 .tea-pictures {
